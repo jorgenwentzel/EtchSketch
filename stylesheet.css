@@ -3,4 +3,44 @@
     width: 800px;
     height: 800px;
     background-color: red;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 5px;
+}
+.cell {
+    background-color: blue;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+button {
+    background: none;
+    background-color: grey;
+    color: white;
+    width: 150px;
+    height: 70px;
+    border-radius: 3px;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+button:hover  {
+    background-color: rgb(39, 29, 29);
+}
+
+#gridsize {
+    font-size: 21px;
+    width: 50px;
+}
+
+.controls p {
+    font-size: 21px;
+}
+
+.controls {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
